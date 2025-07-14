@@ -20,7 +20,10 @@ for (let i=1; i<biciclette.length; i++){  //inizio un ciclo for per confrontare 
   }
 
 }
+ //stampo a schermo i risultati
 
+ console.log( 'La bici piu leggera è:');
+ console.log (`Nome: ${biciLeggera.nome}, Peso: ${biciLeggera.peso} kg`);
 
 
 
