@@ -27,4 +27,13 @@ for (let i=1; i<biciclette.length; i++){  //inizio un ciclo for per confrontare 
 
 
 
+// snack 2 :
+
+ // Funzione per generare un numero intero casuale tra min e max (inclusi)
+ function getRandomInt (min,max){
+ return Math.floor(Math.random()  * (max - min +1)) + min;
+
+ }
+
+
 
