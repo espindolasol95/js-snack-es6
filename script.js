@@ -60,9 +60,9 @@ for (let i=1; i<biciclette.length; i++){  //inizio un ciclo for per confrontare 
 
  for (let i=0; i<squadre.length; i++){
    
-  let squadra={
+  const squadra={
 
-    nome: squadre[i].nome  
+    nome: squadre[i].nome,
     falli: squadre[i].falli
     
   };
@@ -71,3 +71,4 @@ for (let i=1; i<biciclette.length; i++){  //inizio un ciclo for per confrontare 
  // Aggiungo l'oggetto appena creato all'array squadreFalli
  squadreFalli.push (squadre);
 
+console.log(squadre)
