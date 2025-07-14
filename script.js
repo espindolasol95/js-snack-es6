@@ -45,3 +45,14 @@ for (let i=1; i<biciclette.length; i++){  //inizio un ciclo for per confrontare 
 
 
 //faccio un ciclo for per asegnare valori casuali alle squa dre
+ for (let i=0; i<squadre.length; i++ ){
+  //genero un numero casuale tra 0 e 100 per i punti
+  squadre [i]=getRandomInt(0, 100);
+  
+  //genero un numero casuale per i falli tra 1 e 10
+  squadre [i]=getRandomInt (1, 10);
+
+ }
+
+
+ //creo un array per salvare nome e falli
