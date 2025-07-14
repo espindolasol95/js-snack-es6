@@ -55,4 +55,19 @@ for (let i=1; i<biciclette.length; i++){  //inizio un ciclo for per confrontare 
  }
 
 
- //creo un array per salvare nome e falli
+ //creo un array per salvare nome e falli (in questo caso forse potevo creare un array dentro l'atro ma non sono riusciota a farlo funzionare)
+ const squadreFalli=[];
+
+ for (let i=0; i<squadre.length; i++){
+   
+  let squadra={
+
+    nome: squadre[i].nome  
+    falli: squadre[i].falli
+    
+  };
+
+ }
+ // Aggiungo l'oggetto appena creato all'array squadreFalli
+ squadreFalli.push (squadre);
+
