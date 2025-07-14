@@ -47,10 +47,10 @@ for (let i=1; i<biciclette.length; i++){  //inizio un ciclo for per confrontare 
 //faccio un ciclo for per asegnare valori casuali alle squa dre
  for (let i=0; i<squadre.length; i++ ){
   //genero un numero casuale tra 0 e 100 per i punti
-  squadre [i]=getRandomInt(0, 100);
+  squadre [i].punti=getRandomInt(0, 100);
   
   //genero un numero casuale per i falli tra 1 e 10
-  squadre [i]=getRandomInt (1, 10);
+  squadre [i].falli=getRandomInt (1, 10);
 
  }
 
@@ -71,4 +71,4 @@ for (let i=1; i<biciclette.length; i++){  //inizio un ciclo for per confrontare 
  // Aggiungo l'oggetto appena creato all'array squadreFalli
  squadreFalli.push (squadre);
 
-console.log(squadre)
+console.log(squadreFalli)
