@@ -36,8 +36,8 @@ for (let i=1; i<biciclette.length; i++){  //inizio un ciclo for per confrontare 
  }
  // Creo un array di oggetti con solo il nome della squadra, e inizializzo punti e falli a 0
   const squadre= [
-  {nome:'Juventus',punti: 0, falli: 0 },
-  {nome:'Rosario Central',punti:0 , falli: 0 },
+  {nome:'Juventus', punti: 0, falli: 0 },
+  {nome:'Rosario Central', punti:0 , falli: 0 },
   {nome:'Benfica' , punti:0 , falli: 0  },
   {nome:'Inter Miami', punti:0 , falli: 0 },
   {nome:'Atletico Madrid' , punti:0 , falli: 0 }
